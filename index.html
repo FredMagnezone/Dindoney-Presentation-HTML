@@ -16,6 +16,7 @@
 
 
   <style>
+
     body {
       background: rgb(154, 212, 244);
       background: radial-gradient(circle, rgba(154, 212, 244, 1) 0%, rgba(132, 141, 207, 1) 50%, rgba(105, 111, 159, 1) 100%);
@@ -28,7 +29,6 @@
       background-image: url("images/snow.png");
       background-size: cover;
       background-position: right;
-      background-repeat: no-repeat;
     }
 
 
@@ -45,6 +45,7 @@
       clear: both;
       display: table;
     }
+
   </style>
 </head>
 
@@ -72,22 +73,21 @@
             <br>
             <hr>
             </hr>
-            <li><a class="menu__item" href="#graf">Gráficos <i class="fa-solid fa-chart-pie-simple"></i></a></li>
-            <li><a class="menu__item" href="VariaçãoPreços.html">Variação dos Preços <i class="fa-sharp fa-solid fa-tag"></i></a></li>
-            <li><a class="menu__item" href="#">Fundo Poupança</a></li>
-            <li><a class="menu__item" href="#">Checklist</a></li>
-            <li><a class="menu__item" href="#">Guia de Dietas</a></li>
-            <li><a class="menu__item" href="#">Minicurso</a></li>
-            <li><a class="menu__item" href="#">Personalização <i class="fa-solid fa-pencil"></i></a></li>
-            <li><a class="menu__item" href="#">Segurança <i class="fa-solid fa-lock"></i></a></li>
+            <li><a class="menu__item" href="#">Home <i class="fa-solid fa-house"></i></a></li>
+            <li><a class="menu__item" href="#graf">Gráficos</a></li>
+            <li><a class="menu__item" href="#vp">Variação dos Preços</a></li>
+            <li><a class="menu__item" href="#poupa">Fundo de Poupança</a></li>
+            <li><a class="menu__item" href="#checklist">Checklist</a></li>
+            <li><a class="menu__item" href="#comida">Guia de Dietas</a></li>
+            <li><a class="menu__item" href="#curso">Minicurso</a></li>
+            <li><a class="menu__item" href="#edit">Personalização <i class="fa-solid fa-pencil"></i></a></li>
+            <li><a class="menu__item" href="#secure">Segurança <i class="fa-solid fa-lock"></i></a></li>
+            <li><a class="menu__item" href="#tabela">Comparação <i class="fa-solid fa-lock"></i></a></li>
+            <li><a class="menu__item" href="#reference">Referências <i class="fa-solid fa-lock"></i></a></li>
           </ul>
         </div>
       </div>
 
-
-
-      <!--<h2 id="GnH" class="glow" style="text-align:center;padding-bottom:30px;color:white; margin-top:1em" class="text">Dindoney <br> <p class="glow_tag" style="font-size:20px;margin-left:140px">
-        Planeie o seu futuro...</p> </h2>-->
       <div class="container" style="margin-left:auto;margin-right:auto;margin-top:2em;margin-bottom:2em">
         <div class="row">
           <div class="column">
@@ -99,72 +99,286 @@
         </div>
       </div>
       <div id="top" class="content shadow-lg p-3 mb-5 rounded">
-        <div class="card" id="indexback" style="padding-bottom:150px">
 
-          <br><br>
+
+
+        <div class="card" id="indexback" style="padding-bottom:150px">
           <div class="row g-3 ">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-              <h5 id="title" class="card-title glow_green" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin' ></i> Qual o nosso objetivo <i class='bx bx-star bx-spin' ></i></h5>
-              <legend class="legend_desc"> &nbsp Decidimos criar a app dindoney para ajudar as pessoas a ter uma noção mais geral das suas despesas, e do dinheiro que
-                possuem; de certa forma guiá-las para que consigam gerir/investir/poupar de uma forma mais eficiente. Desta forma,
-                adquirir a capacidade de criar hábitos saudáveis quando o assunto é gestão de dinheiro. </legend>
-
+          <h5 id="graf" class="card-title glow_green title" style="text-align: center;padding-top:10px;padding:30px;color:white"> <i class='bx bx-star bx-spin'></i>
+            Qual o nosso objetivo <i class='bx bx-star bx-spin'></i></h5>
+            <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+              Decidimos criar a app dindoney para ajudar as pessoas a ter uma noção mais geral das suas despesas, e do dinheiro que
+              possuem; de certa forma guiá-las para que consigam gerir/investir/poupar de uma forma mais eficiente. Desta forma,
+              adquirir a capacidade de criar hábitos saudáveis quando o assunto é gestão de dinheiro.
+            </legend>
             </div>
+          </div>
 
-            <br><br>
-            <div class="row g-3 ">
-              <div class="col-md-1"></div>
-              <div class="col-md-10">
-                <br><br>
-                <h5 id="graf" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin' ></i> Gráficos <i class='bx bx-star bx-spin' ></i></h5>
 
-              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">Apresentação de gráficos de gastos anuais, mensais, semanais e diários. </legend>
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <h5 id="graf" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Gráficos <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+                Apresentação de gráficos de gastos anuais, mensais, semanais e diários.
+              </legend>
               <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
-                    <div class="col-md-5 container img_div">
-                      <img class="wd50 container" src="images/graficos_roda.png" alt=""><br>
-                      <label style="color:white;font-size:22px;padding-bottom:20px">[9]</label>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5 container img_div">
+                <div class="col-md-1 "></div>
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/graficos_roda.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
 
-                      <img class="wd50 container" src="images/grafico_barras.png" alt=""><br>
-                      <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
-                    </div>
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/grafico_barras.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
 
-
-                  </div>
+              </div>
 
             </div>
-
-          </div>
-        <!--  <div class="container" >
-            <ul>
-              <li><a class="menu__item" href="#graf">Gráficos <i class="fa-solid fa-chart-pie-simple"></i></a></li>
-              <li><a class="menu__item" href="#">Variação dos Preços</a></li>
-              <li><a class="menu__item" href="#">Fundo Poupança</a></li>
-              <li><a class="menu__item" href="#">Checklist</a></li>
-              <li><a class="menu__item" href="#">Guia de Dietas</a></li>
-              <li><a class="menu__item" href="#">Minicurso</a></li>
-              <li><a class="menu__item" href="#">Personalização <i class="fa-solid fa-pencil"></i></a></li>
-              <li><a class="menu__item" href="#">Segurança <i class="fa-solid fa-lock"></i></a></li>
-            </ul>
-        </div>-->
             <div class="col-md-3"></div>
-            <div class="col-lg-6">
-              <br><br><br><br>
-              <h5 id="title" class="glow_green" style="text-align: center;padding:30px;padding-top: 10px;color:white"><i class='bx bx-star bx-spin' ></i> Comparação com outras aplicações <i class='bx bx-star bx-spin' ></i></h5>
 
-              <img class="img_div" style="width:80%" src="images/tabela.png" alt="place"><br><br>
+          </div>
+
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <h5 id="vp" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i> Variação dos Preços <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">É apresentado um separador onde se informa sobre variação do preço médio de venda ao consumidor do produto; procuramos indicar relativamente a marcas
+                mais nacionais/mundiais: coca cola; iced tea, lays. </legend>
+              <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                <div class="col-md-2 ">
+                </div>
+                <div class="col-md-8 img_div">
+                  <img class="wd50 container" src="images/vp.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-2">
+
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <h5 id="poupa" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Fundo de Poupança <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px"> Com o propósito escolhido pelo utilizador, seja guardar dinheiro para férias ou seguro de riscos.  </legend>
+              <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                <div class="col-md-2 ">
+                </div>
+                <div class="col-md-8 img_div">
+                  <img class="wd50 container" src="images/poupa.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-2"></div>
+
+              </div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+              <h5 id="check" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Checklist <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+                Checklist para os gastos. (listas para coisas especificas, exemplos: coisas que quero comprar este ano, coisas que gostava de comprar e os respetivos preços (num longo período de vida), o que vou precisar de comprar quando começar a universidade).  Além disso, também é possível organizar e selecionar os itens mais necessários.  </legend>
+              <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                <div class="col-md-1 "></div>
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/buy.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
+
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/check.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
+
+              </div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+
+
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+              <h5 id="comida" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Guia de Dietas <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+                Ademais, também existe um separador que aconselha alimentos/ refeições dependendo da dieta(s) selecionada(s), como por exemplo vegetariana, vegan, pescetarianismo (alimentação baseada em alimentos vegetais em conjunto com peixe e frutos do mar, retirando totalmente a carne).
+              </legend>
+                <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                  <div class="col-md-2 ">
+                  </div>
+                  <div class="col-md-8 img_div">
+                    <img class="wd50 container" src="images/saco.png" alt=""><br>
+                    <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                  </div>
+                  <div class="col-md-2"></div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+        </div>
+
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+              <h5 id="curso" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Minicurso <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+                Disponibilizamos uma espécie de minicurso para ajudar a resolver o problema apresentado; onde existem vários separadores com opções de problemas comuns e como os resolver (dicas proporcionadas por especialistas do assunto).<br><br>
+Possui ilustrações/ mini vídeos para apresentar as explicações. Por exemplo: definir prioridades, assegurar a acumulação de dinheiro para constituir uma poupança.
+</legend>
+<div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                <div class="col-md-1 "></div>
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/book.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
+
+                <div class="col-md-4 img_div">
+                  <img class="wd50 container" src="images/prob.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-1 "></div>
+
+              </div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+
+
+          <div class="row g-3 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+              <h5 id="edit" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+                 Personalização <i class='bx bx-star bx-spin'></i></h5>
+
+              <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+                A nossa app foi criada de forma a ser mais interativa (como um jogo) e com várias possibilidades de personalização.
+              </legend>
+                <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                  <div class="col-md-2 ">
+                  </div>
+                  <div class="col-md-8 img_div">
+                    <img class="wd50 container" src="images/edit.png" alt=""><br>
+                    <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                  </div>
+                  <div class="col-md-2"></div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+          </div>
+        </div>
+
+
+        <div class="row g-3 ">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+
+            <h5 id="secure" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+               Segurança <i class='bx bx-star bx-spin'></i></h5>
+
+            <legend class="legend_desc" style="text-align:center;padding:50px;margin-bottom:30px">
+              Garantimos acesso seguro para a entrada e saída de informação.
+              </legend>
+              <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+              <div class="col-md-1 "></div>
+              <div class="col-md-4 img_div">
+                <img class="wd50 container" src="images/security.png" alt=""><br>
+                <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+              </div>
+              <div class="col-md-1 "></div>
+
+              <div class="col-md-4 img_div">
+                <img class="wd50 container" src="images/securemo.png" alt=""><br>
+                <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+              </div>
+              <div class="col-md-1 "></div>
 
             </div>
 
           </div>
+          <div class="col-md-3"></div>
+
+        </div>
+
+
+        <div class="row g-3 ">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+
+            <h5 id="tabela" class="card-title glow_green title" style="text-align: center;padding:30px;padding-top: 10px;color:white"> <i class='bx bx-star bx-spin'></i>
+               Comparação com outras aplicações <i class='bx bx-star bx-spin'></i></h5>
+              <div class="row g-3 container" style="margin-top:37px;margin-left:auto; margin-right:auto">
+                <div class="col-md-2 ">
+                </div>
+                <div class="col-md-8 img_div">
+                  <img class="wd50" src="images/tabela.png" alt=""><br>
+                  <label style="color:white;font-size:22px;padding-bottom:20px">[10]</label>
+                </div>
+                <div class="col-md-2"></div>
+
+          </div>
+          <div class="col-md-3"></div>
 
         </div>
       </div>
 
-    </div>
+
+
+
+
+
+
+
+        </>
+
+      </div>
 
     </div>
   </section>

@@ -1,5 +1,6 @@
 #menu__toggle {
   opacity: 0;
+  position: fixed;
 }
 
 #menu__toggle:checked+.menu__btn>span {
@@ -73,7 +74,8 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
   z-index: 1;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0 25px 25px 0;
+
 }
 
 .menu__item {
@@ -88,9 +90,12 @@
 }
 
 .menu__item:hover {
-  background-color: rgba(91, 111, 23, 0.77);
+  background: linear-gradient(135deg, rgba(190,221,34,1) 25%, rgba(102,122,27,1) 75%, rgba(74,94,7,1) 100%);
   text-shadow: 4px 4px 4px black;
+  border-radius: 0 25px 25px 0;
+  transform: scale(1.15);
   color: white;
+  border-right: 5px groove rgba(58, 71, 6, 1);
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
