@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dindoney</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="shortcut icon" href="images/logo.png">
+
+
+  <style>
+    body {
+      background: rgb(154, 212, 244);
+      background: radial-gradient(circle, rgba(154, 212, 244, 1) 0%, rgba(132, 141, 207, 1) 50%, rgba(105, 111, 159, 1) 100%);
+      /*background: radial-gradient(circle,  rgba(146, 193, 237, 0.95)  0%, rgba(32, 96, 189, 0.95) 53%, rgba(20, 71, 158, 0.95) 100%);*/
+
+
+    }
+
+    section {
+      background-image: url("images/snow.png");
+      background-size: cover;
+      background-position: right;
+    }
+
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+
+    <div style="margin-left:auto;margin-right:auto">
+
+
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <i class="fa-solid fa-bars menu_nav"></i>
+        </label>
+
+        <div class="menu__box">
+          <ul>
+
+            <li>
+              <label class="menu_close" for="menu__toggle">
+                <i class="fa-solid fa-xmark menu_nav"></i>
+              </label>
+            </li>
+            <br>
+            <br>
+            <hr>
+            </hr>
+            <li><a class="menu__item" href="/">Home <i class="fa-solid fa-house"></i></a></li>
+            <li><a class="menu__item" href="#">Variação dos Preços</a></li>
+            <li><a class="menu__item" href="#">Fundo Poupança</a></li>
+            <li><a class="menu__item" href="#">Checklist</a></li>
+            <li><a class="menu__item" href="#">Guia de Dietas</a></li>
+            <li><a class="menu__item" href="#">Minicurso</a></li>
+            <li><a class="menu__item" href="#">Personalização <i class="fa-solid fa-pencil"></i></a></li>
+            <li><a class="menu__item" href="#">Segurança <i class="fa-solid fa-lock"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <!--<h2 id="GnH" class="glow" style="text-align:center;padding-bottom:30px;color:white; margin-top:1em" class="text">Dindoney <br> <p class="glow_tag" style="font-size:20px;margin-left:140px">
+        Planeie o seu futuro...</p> </h2>-->
+      <div class="container" style="margin-left:auto;margin-right:auto;margin-top:2em;margin-bottom:2em">
+        <div class="row">
+          <div class="column">
+            <img src="images/logo.png" style="display: block;width:30%;margin-left:auto;margin-right:auto" alt="">
+          </div>
+          <div class="column">
+            <img src="images/title.png" style="display: block;width:110%;margin-left:auto;margin-right:auto;margin-top:2em" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="top" class="content shadow-lg p-3 mb-5 rounded">
+        <div class="card" id="indexback" style="padding-bottom:150px">
+
+          
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
