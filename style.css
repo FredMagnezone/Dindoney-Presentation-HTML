@@ -848,3 +848,16 @@ cursor: pointer;
 ol, ul {
 padding-left: 0px !important;
 }
+.wd50{
+  width: 60%;
+  text-align: center;
+  border-radius:25px;
+
+}
+
+.img_div{
+  box-shadow: 5px 5px 2.5px #666;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+
+}
