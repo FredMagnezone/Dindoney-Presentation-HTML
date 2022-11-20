@@ -919,8 +919,30 @@ padding-left: 0px !important;
 
 .link_ref{
   font-size:110%;
-  
+  font-weight: bold;
+  display: inline-block;
+  transition: .5s;
+
 }
+.hover_a{
+  display: inline-block;
+  transition: .5s;
+}
+
+.link_ref:hover{
+
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.48);
+  color:rgb(121, 212, 255);
+  transform: rotateX(360deg);
+}
+
+.hover_a:hover{
+  -webkit-transform: rotateX(360deg);
+  transform: scale(1.5);
+}
+
+
+
 
 .div_referencias{
   background: linear-gradient(180deg, rgba(169, 170, 164, 0.9) 25%, rgba(132, 133, 127, 0.8) 75%, rgba(58,58,57,0.7) 100%);
