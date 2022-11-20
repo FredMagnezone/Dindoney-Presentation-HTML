@@ -917,6 +917,11 @@ padding-left: 0px !important;
   font-size:105%;
 }
 
+.link_ref{
+  font-size:110%;
+  
+}
+
 .div_referencias{
   background: linear-gradient(180deg, rgba(169, 170, 164, 0.9) 25%, rgba(132, 133, 127, 0.8) 75%, rgba(58,58,57,0.7) 100%);
   border-radius: 30px;
