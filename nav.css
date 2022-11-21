@@ -70,7 +70,7 @@
   padding: 40px 0;
   list-style: none;
   background: rgb(250, 211, 122);
-  background: linear-gradient(135deg, rgba(250,211,122,1) 25%, rgba(226,175,56,1) 75%, rgba(175,127,21,1) 100%);
+  background: linear-gradient(135deg, rgba(144,194,244,1) 25%, rgba(130,165,234,1) 75%, rgba(116,125,200,1) 100%);
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
   z-index: 1;
@@ -90,7 +90,7 @@
 }
 
 .menu__item:hover {
-  background: linear-gradient(135deg, rgba(190,221,34,1) 25%, rgba(102,122,27,1) 75%, rgba(74,94,7,1) 100%);
+  background: linear-gradient(135deg, rgba(109,120,186,1) 25%, rgba(83,89,130,1) 75%, rgba(63,69,107,1) 100%);
   text-shadow: 4px 4px 4px black;
   border-radius: 0 25px 25px 0;
   transform: scale(1.15);
